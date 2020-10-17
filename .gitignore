@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Programming Tasks Sheet 1/Temp
+/Programming Tasks Sheet 1/Library
+/Programming Tasks Sheet 1/Logs
+/.vs
