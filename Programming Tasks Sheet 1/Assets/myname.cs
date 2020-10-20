@@ -17,8 +17,6 @@ public class MyName : MonoBehaviour
     private void Awake()
     {
         gameCamera = FindObjectOfType<Camera>();
-
-
     }
     // Start is called before the first frame update
     void Start()
