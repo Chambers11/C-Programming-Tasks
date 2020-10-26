@@ -23,7 +23,7 @@ public class TextMesh3Arguments : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Hello3(NameFirst, NameSecond, NameThrid); // This allows us to update the name variables in editor during runtime 
+        Hello3(NameFirst, NameSecond, NameThrid);  // This allows us to update the name variables in editor during runtime 
 
     }
 }
