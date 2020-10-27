@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OutComeBi : MonoBehaviour
-
+public class Color_Black : MonoBehaviour
 {
+    // Question a: 
     public TMPro.TMP_Text text_display;
+    public enum CurrentColor { black, white, blue, green };
+
+    // Question b: 
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +19,6 @@ public class OutComeBi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Predicted outcome: 2bc ->  Actual outcome = 2bc 
-        text_display.text = (2 +"bc").ToString(); 
+        text_display.color = Color.black;
     }
 }
