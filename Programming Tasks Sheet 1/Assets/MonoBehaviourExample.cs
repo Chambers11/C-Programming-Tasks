@@ -11,7 +11,7 @@ public class MonoBehaviourExample : MonoBehaviour
     {
         Debug.Log("Awake");
 
-        // find the camera in the scene and store for later 
+        // Find the camera in the scene and store for later 
         gameCamera = FindObjectOfType<Camera>();
     }
         // Start is called before the first frame update

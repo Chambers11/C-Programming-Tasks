@@ -14,7 +14,6 @@ public class HelloTextMeshPro : MonoBehaviour
         // The Name display in editor doesn't allow you to change the Name once the program has been started becase the Start is called just before any of the Update methods.  
         text_display.text = Name;
 
-        Name += (10 / 3f); // The use of f allows the value to be recognised as a floating point number, without the f the default is to take the value as an integer.
 
     }
 

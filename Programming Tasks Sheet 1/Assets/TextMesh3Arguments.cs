@@ -10,7 +10,7 @@ public class TextMesh3Arguments : MonoBehaviour
     // Creation of 3 arguments using the below method  
     void Hello3(string First, string Second, string Third)
     {
-        TextDisplay.text = "Hello" + First + "," + Second + "and" + Third;  // This is called string concatenation 
+        TextDisplay.text = "Hello" + First + "," + Second + "and" + Third;  // This is how we can call upon the three arguments establisshed in line 11  
     }
 
     
